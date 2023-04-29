@@ -20,7 +20,7 @@ export default function Header() {
       </label>
       <img
         src={logo}
-        className="w-16 absolute right-2 hover:cursor-pointer hover:cursor-pointer"
+        className="w-16 absolute right-2 hover:cursor-pointer transition duration-500 ease-out hover:scale-105 hover:cursor-pointer"
         onClick={() => {
           navigate("/");
         }}
